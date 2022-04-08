@@ -6,9 +6,9 @@ Este sitio web ha sido elaborado por los estudiantes del Colegio Don Bosco, III 
 El grupo "en leit se gana - COPIUM", esta conformado por:
 1-
 
-2-
+2- Gerardo Antonio Herrera Cruz #15
 
-3-
+3- 
 
 4-
 
