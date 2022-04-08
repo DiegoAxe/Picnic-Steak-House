@@ -11,6 +11,6 @@ El grupo "en leit se gana - COPIUM", esta conformado por:
 
 3- 
 
-4-
+4- Diego Ariel Martinez Lemus #24
 
 5- Edmilson Alejandro Martínez Reynosa #25
