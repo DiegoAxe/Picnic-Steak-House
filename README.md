@@ -9,7 +9,7 @@ El grupo "en leit se gana - COPIUM", esta conformado por:
 
 2- Gerardo Antonio Herrera Cruz #15
 
-3- 
+3- Cristian Alexis López Tamayo #18
 
 4- Diego Ariel Martinez Lemus #24
 
