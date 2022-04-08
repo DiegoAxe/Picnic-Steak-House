@@ -1,0 +1,219 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.btn-info{
+    background-color: rgb(241, 8, 8 );
+    border-color: rgb(241, 8, 8 );
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.btn-info:hover{
+    background-color: rgb(123, 36, 28 );
+    border-color: rgb(123, 36, 28 );
+    color: whitesmoke;
+}
+#PrinCuerpo h1::after{
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 0.1em;
+    background: red;
+
+}
+
+.containerrest{
+    display: flex;
+    width: 50%;
+    max-width: 550px;
+    flex-wrap: wrap ;
+
+    padding: 10px;
+}
+
+.containerparque{
+    display: flex;
+    width: 50%;
+    max-width: 550px;
+    flex-wrap: wrap ;
+
+    padding: 10px;
+
+}
+
+
+.principal-btn{
+    width: 10em;
+    margin: 0 auto;
+    z-index: 2;
+
+}
+.principal-btn button{
+    margin: 5% 0 5% 28%;
+}
+
+
+.img1{
+    width: 28%;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.trest{
+    margin-left: 320px;
+    position: absolute;
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+#PrinCuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .trest{
+        width: 17%;
+    }
+
+    h1{
+        margin-left: 150px;
+    }
+
+    .containerparque, .containerrest, .containeratract, .containercomida{
+        width: 100%;
+    }
+ 
+    .textrest{
+        position: absolute;
+        width: 17%;
+        font-size: 20px;
+        margin-left: 320px;
+        margin-top: 40px;
+        
+        color: black;
+        padding: 3px;
+        border-radius: 3px;
+        
+    }
+}
+
+
+
+
+@media only screen and (min-width: 820px) and (max-width: 1199px) {
+    .trest{
+        width: 37%;
+    }
+
+
+    .textrest{
+        position: absolute;
+        width: 37%;
+        font-size: 20px;
+        margin-left: 320px;
+        margin-top: 40px;
+        color: black;
+        padding: 3px;
+        border-radius: 3px;
+    }
+
+    .containerparque, .containerrest, .containeratract, .containercomida{
+        width: 100%;
+        max-width: 650px;
+    }
+ 
+ 
+
+}
+
+
+@media only screen and (max-width: 360px) {
+    
+    .trest{
+        margin-left: 1px;
+        width: 75%;
+    }
+    .img1{
+        margin-top: 20px;
+        min-width: 270px;
+        margin-left: 9px;
+    }
+    .containerparque, .containerrest, .containeratract, .containercomida{
+        width: 100%;
+    }
+
+    .textrest{
+        color: black;
+        padding: 3px;
+        border-radius: 3px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1180px) and (min-height: 820px) {
+    
+    h1{
+        margin-left: 15vh;
+    }
+
+    .trest{
+        width: 55%;
+    }
+
+
+    .textrest{
+        position: absolute;
+        width: 55%;
+        font-size: 20px;
+        margin-left: 320px;
+        margin-top: 40px;
+        color: black;
+        padding: 3px;
+        border-radius: 3px;
+    }
+
+    .containerparque, .containerrest, .containeratract, .containercomida{
+        width: 100%;
+        max-width: 650px;
+    }
+ 
+ 
+
+}
+
+
+@media only screen and (min-width: 740px) and (max-height: 360px) {
+    
+    .trest{
+        margin-left: 1px;
+        width: 75%;
+    }
+    .img1{
+        margin-top: 20px;
+        min-width: 550px;
+        margin-left: 9px;
+    }
+    .containerparque, .containerrest, .containeratract, .containercomida{
+        width: 100%;
+        max-width: 160vh;
+    }
+
+    .textrest{
+        color: black;
+        padding: 3px;
+        border-radius: 3px;
+    }
+
+}
+
