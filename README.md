@@ -1,7 +1,7 @@
 # Picnic-Steak-House
-Vuelven los días de picnic en nuestro restaurante: Picnic Steak House. Te esperamos para que disfrutes de las mejores carnes en una experiencia única en El Salvador.
+Vuelven los días de picnic en nuestro restaurante: Picnic Steak House. Te esperamos para que disfrutes de las mejores carnes en una experiencia única en El Salvador. ACTUALIZADO A LA SEGUNDA FASE DEL PROYECTO.
 
-Este sitio web ha sido elaborado por los estudiantes del Colegio Don Bosco, III año de Bachillerato, sección B, como trabajo de catedra de la asignatura LME.
+Este sitio web ha sido elaborado por los estudiantes del Colegio Don Bosco, III año de Bachillerato, sección B, como trabajo de SEGUNDA FASE de catedra de la asignatura LME.
 
 Para acceder a la Vista Publica entre al enlace: https://diegoaxe.github.io/Picnic-Steak-House/Index.html
 
