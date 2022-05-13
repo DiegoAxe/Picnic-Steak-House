@@ -1,0 +1,128 @@
+div#Contacto{
+    text-align: center;
+    color: red;                                             /* COLOR DEL TITULO DE LA PAGINA */
+    margin: 20px auto 15px auto;
+    padding: 0 10px 0 20px;
+    width: 30%;
+}
+div#Contacto h1{
+    font-weight: bold;
+    text-align: center;
+}
+#Mapa{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+}
+#Mapa iframe{
+    width: 98%;
+    box-shadow: 3px 3px 3px rgba(241, 8, 8,1);
+}
+
+#Mapa div {
+    background-color: #111;                         /* COLOR DE FONDO DEL CUADRO BAJO EL MAPA */
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(250, 250, 250, 1);
+    font-family: quicksand;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;                                   /* COLOR DEL TEXTO DEL CUADRO BAJO EL MAPA */
+}
+
+#PrinCuerpo{
+    text-align: center;
+    border-radius: 25px;
+}
+#PrinCuerpo h1{
+    font-weight: bold;
+    color: black;
+}
+#PrinCuerpo input{
+    width: 80%;
+    margin-top: 3px;
+    height: 45px;
+    padding: 0 5% 0 5%;
+    
+}
+#PrinCuerpo textarea{
+    width: 80%;
+    height: 90px;
+    padding: 3% 5% 5% 5%;
+    margin-top: 4px;
+}
+#PrinCuerpo input[type="submit"]{
+    width: 30%;                                  
+    font-weight: bold;
+    background-color: rgb(241, 8, 8 );       /* COLOR DEL FONDO DEL BOTON ENVIAR */
+    border-color: rgb(241, 8, 8 );           /* COLOR DEL BORDE DEL BOTON ENVIAR */
+    color: white;                            /* COLOR DE LA LETRA DEL BOTON ENVIAR */
+    font-family: Montserrat;        
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);           
+}
+#PrinCuerpo input[type="submit"]:hover{                 
+    background-color: rgb(123, 36, 28 );             /* COLOR DEL FONDO DEL BOTON ENVIAR, AL HACER HOVER */
+    border-color: rgb(123, 36, 28 );                /* COLOR DEL BORDE DEL BOTON ENVIAR, AL HACER HOVER */
+    color: whitesmoke;               
+}
+
+@media screen and (min-width:1024px) {
+    #PrinCuerpo{
+        width: 42vw;
+        float: right;
+        margin-right: 50px;
+        margin-top: 100px ;
+    }
+    #Mapa {
+        width: 47vw;
+        float: left;
+        margin-left: 30px;
+    }
+    #Mapa div{
+        width: 40vw;
+    }
+    #Mapa P{
+        font-size: 22px;
+    }
+    
+}
+@media screen and (min-width:700px) and (max-width:1023px) { 
+    #PrinCuerpo{
+        width: 80vw;
+    }
+    div#Contacto{
+        width: 40%;
+    }
+    #Mapa {
+        width: 80vw;
+        margin: auto;
+    }
+    #Mapa div{
+        width: 80%;
+    }
+    #Mapa P{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:699px) {
+    #PrinCuerpo{
+        width: 80vw;
+    }
+    div#Contacto{
+        width: 60%;
+    }
+    #Mapa {
+        width: 90vw;
+        margin: auto;
+    }
+    #Mapa div{
+        width: 80%;
+    }
+    #Mapa P{
+        font-size: 18px;
+    }
+}
